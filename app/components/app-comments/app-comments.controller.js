@@ -8,7 +8,7 @@ class commentsCtrl {
             // updating data from service
             this.items = updatedData;
 
-            if (this.currentIndex !== undefined) {
+            if (this.currentIndex !== undefined && this.currentItem !== undefined) {
                 this.currentItem = updatedData[this.currentIndex];
                 this.currentComments = this.currentItem.comments;
             }

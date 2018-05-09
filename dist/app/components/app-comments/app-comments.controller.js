@@ -20,7 +20,7 @@ var commentsCtrl = function () {
             // updating data from service
             _this.items = updatedData;
 
-            if (_this.currentIndex !== undefined) {
+            if (_this.currentIndex !== undefined && _this.currentItem !== undefined) {
                 _this.currentItem = updatedData[_this.currentIndex];
                 _this.currentComments = _this.currentItem.comments;
             }
