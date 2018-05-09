@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/components/app-comment/app-comment.controller.js"],"names":["commentCtrl"],"mappings":";;;;IAAMA,W,GACF,uBAAc;AAAA;AAEb,C","file":"app-comment.controller.js","sourcesContent":["class commentCtrl {\r\n    constructor() {\r\n\r\n    }\r\n}"]}

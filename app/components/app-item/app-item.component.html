@@ -1,0 +1,10 @@
+<div class="item-container" ng-click="$ctrl.selectCurrentItem($ctrl.item)"
+     ng-class="{'item-selected' : $ctrl.isSelected($ctrl.item)}">
+    <div class="item-title-container-wrap">
+        <div class="item-title-container">
+            <div class="item-title">{{$ctrl.item.text}}</div>
+            <div><span class="item-number">{{$ctrl.item.comments.length}}</span></div>
+        </div>
+        <button class="item-button" ng-click="$ctrl.deleteItem()">Delete</button>
+    </div>
+</div>

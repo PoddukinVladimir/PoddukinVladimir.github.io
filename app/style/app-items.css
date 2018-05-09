@@ -1,0 +1,33 @@
+.items-container {
+    margin: 5px 30px 15px 0;
+}
+
+.item-selected {
+    border-left: 3px solid red;
+}
+
+.dairy-title-medium {
+    color: darkslategray;
+    font-family: 'Barlow', serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.items-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.items-input {
+    width: 65%;
+}
+
+.items-button {
+    width: 30%;
+    background-color: #25cbbf;
+    border: none;
+    color: white;
+}

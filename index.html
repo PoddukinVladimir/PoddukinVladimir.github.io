@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dairyApp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+        <link rel="stylesheet" href="app/style/stylesheet.css">
+        <script src="node_modules/angular/angular.js"></script>
+
+    </head>
+    <body ng-cloak>
+        <app-dairy></app-dairy>
+
+        <!-- Adding entities -->
+        <script src="dist/app/entities/comment.js"></script>
+        <script src="dist/app/entities/item.js"></script>
+
+        <!-- Adding modules -->
+        <script src="dist/app/app-module.js"></script>
+
+        <!-- Adding services -->
+        <script src="dist/app/services/items.service.js"></script>
+
+        <!-- Adding directives -->
+        <script src="dist/app/directives/ctrl-enter-submit.js"></script>
+
+        <!-- Adding components -->
+        <script src="dist/app/components/app-dairy/app-dairy.controller.js"></script>
+        <script src="dist/app/components/app-dairy/app-dairy.component.js"></script>
+        <script src="dist/app/components/app-items/app-items.controller.js"></script>
+        <script src="dist/app/components/app-items/app-items.component.js"></script>
+        <script src="dist/app/components/app-item/app-item.controller.js"></script>
+        <script src="dist/app/components/app-item/app-item.component.js"></script>
+        <script src="dist/app/components/app-comments/app-comments.controller.js"></script>
+        <script src="dist/app/components/app-comments/app-comments.component.js"></script>
+        <script src="dist/app/components/app-comment/app-comment.controller.js"></script>
+        <script src="dist/app/components/app-comment/app-comment.component.js"></script>
+    </body>
+</html>

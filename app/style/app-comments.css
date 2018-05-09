@@ -1,0 +1,20 @@
+.comments-container {
+    margin: 5px 30px 15px 30px;
+}
+
+.post-comment-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.post-picture {
+    min-width: 50px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 15px;
+}
+
+.post-text {
+    width: 100%;
+}

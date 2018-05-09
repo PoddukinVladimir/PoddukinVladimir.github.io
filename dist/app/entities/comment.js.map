@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../app/entities/comment.js"],"names":["Comment","text"],"mappings":";;;;IAAMA,O,GACF,iBAAYC,IAAZ,EAAkB;AAAA;;AACd,SAAKA,IAAL,GAAYA,IAAZ;AACH,C","file":"comment.js","sourcesContent":["class Comment {\r\n    constructor(text) {\r\n        this.text = text;\r\n    }\r\n}"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../app/app-module.js"],"names":["appModule","angular","module"],"mappings":";;AAAA,IAAIA,YAAYC,QAAQC,MAAR,CAAe,UAAf,EAA2B,EAA3B,CAAhB","file":"app-module.js","sourcesContent":["let appModule = angular.module('dairyApp', []);"]}

@@ -1,0 +1,9 @@
+<div class="items-container">
+    <h2 class="dairy-title-medium">Items</h2>
+    <div class="items-input-container">
+        <input type="text" class="items-input" ng-model="$ctrl.text" placeholder="Type name here...">
+        <button class="items-button" ng-click="$ctrl.addNewItem()">Add new</button>
+    </div>
+    <app-item ng-repeat="item in $ctrl.items track by $index"
+              item="item" current-item="$ctrl.currentItem"></app-item>
+</div>
